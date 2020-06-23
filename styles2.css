@@ -1,0 +1,86 @@
+/* moblie style----------- */
+
+/* base (just the basic styles) */
+
+* {
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+}
+
+/* layout */
+   
+
+    
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* blocks */
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    color: blanchedalmond;
+}
+.brand-title {
+    font-size: 1rem;
+    margin: 1em;
+}
+.navbar-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar-links ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.navbar-links li {
+width: 100%;}
+
+.navbar-link li:hover {
+    background-color: rgb(13, 228, 228);
+}
+.toggle-button .bar {
+    display: inline-block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(16, 142, 214);
+    
+}
+.navbar-links.active {
+    display: flex;
+}
+
+
+/* desktop */
+@media (min-width: 550px) {
+    /* base */
+    /* layout */
+    /* block */
+  .toggle-button{
+      display: none;
+  }
+    .brand-title {
+        margin: 0;
+        padding: 0;
+    }
+    .brand-title {
+        margin-left: 3px;
+    }
+   
+    
+
+}

@@ -12,7 +12,10 @@
 .header {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Blocks */
+
+a {  text-decoration: none;}
 
 .navbar {
     display: flex;
